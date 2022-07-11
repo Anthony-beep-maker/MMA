@@ -1,0 +1,391 @@
+h1
+{
+	text-align: center;
+	font-size: 5em;
+	color: #c90000;
+	font-family: Verdana, "Arial Black", "Comic Sans MS", "Courier New", Georgia, Impact, "Times New Roman", "Trebuchet MS";
+	cursor: default;
+	transition: all 1s;
+}
+
+h2
+{
+	text-align: center;
+	font-size: 3em;
+	color: #0300bc;
+	cursor: default;
+}
+
+header p
+{
+	text-align: center;
+	font-size: 2em;
+	color: white;
+	cursor: default;
+}
+
+body
+{
+	background: linear-gradient(90deg, black 20%, #2a6b89 200%);
+	padding: 0;
+	margin: 0;
+}
+
+#html1, #html2, #html3, #html4, #html5, #html6,
+#html7, #html8, #html9, #html10, #html11, #html12, #html13
+{
+	background: linear-gradient(90deg, black 20%, #2a6b89 200%);
+}
+
+mark
+{
+	background: black;
+	color: white;
+}
+
+p
+{
+   color: white;
+}
+
+a
+{
+	text-align: center;
+}
+
+.bannière
+{
+	width: 100%;
+}
+
+.ligne
+{
+    width: 100%;
+}
+
+#conteneur, #conteneur1, #conteneur2, #conteneur3
+{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.bouton
+{
+   width: 300px;
+   margin-top: 100px;
+   transition: all 1s;
+}
+
+.bouton:hover
+{
+	box-shadow: -5px 0px 0px #dbdbdb;
+	border-radius: 0px;
+	transform: translateX(20px);
+}
+
+.bouton:active
+{
+	width: 250px;
+	box-shadow: 0px 0px 5px #dbdbdb;
+}
+
+.new
+{
+	text-align: center;
+	font-size: 2em; 
+   font-family: Verdana, "Arial Black", "Comic Sans MS", "Courier New", Georgia, Impact, "Times New Roman", "Trebuchet MS";
+   cursor: default;
+}
+
+.logo{
+	float: left;
+	margin-left: 80px;
+	margin-right: -200px;
+	width: 10%;
+	transition: all 1s;
+}
+
+footer
+{
+	background: #adadad;
+	display: flex;
+	justify-content: flex-end;
+	height: 35px;
+}
+
+.info a
+{
+	color: black;
+	text-decoration: none;
+}
+
+.info
+{
+	font-weight: bold;
+	color: black;
+	margin-right: 5px;
+	padding-right: 10px;
+	margin-top: 2px;
+	font-size: 1.5em;
+	font-family: Georgia, Arial, sans-serif;
+	border-right: 1px solid gray;
+	padding-bottom: 30px;
+}
+
+.contact:hover, .info:hover
+{
+	text-decoration: underline;
+}
+
+.contact a
+{
+	color: black;
+	text-decoration: none;
+}
+
+.contact
+{
+	font-weight: bold;
+	color: black;
+	margin-right: 10px;
+	margin-top: 3px;
+	font-size: 1.5em;
+	font-family: Georgia, Arial, sans-serif;
+}
+
+.flotte
+{
+	margin-top: 2px;
+	margin-right: 5px;
+}
+
+.flotte2
+{
+    margin-left: -20px;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+
+@media all and (max-width: 1500px)
+{
+    #conteneur, #conteneur1, #conteneur2
+    {
+       display: flex;
+       flex-direction: row;
+       flex-wrap: nowrap;
+       justify-content: space-between;
+    }
+
+    h1
+    {
+      font-size: 3em;
+    }
+
+    h2
+    {
+    	font-size: 2em;
+    }
+}
+
+@media all and (max-width: 1250px)
+{
+    #conteneur, #conteneur1, #conteneur2
+    {
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: space-around;
+    }
+
+    .bouton
+    {
+       width: 200px;
+    }
+
+}
+
+@media all and (max-width: 1000px)
+{
+	.logo
+    {
+       float: none;
+       margin-top: 50px;
+    }
+
+    #conteneur, #conteneur1, #conteneur2
+    {
+       display: flex;
+       flex-direction: column;
+       flex-wrap: nowrap;
+       justify-content: space-around;
+    }
+
+    .bouton
+    {
+       width: 500px;
+    }
+
+    .bouton:hover
+    {
+	   box-shadow: none;
+	   border-radius: 0;
+    }
+
+    .bouton:active
+    {
+	   width: 650px;
+	   box-shadow: 0px 0px 5px #dbdbdb;
+    }
+}
+
+/* contact et a propos */
+
+#description
+{
+	width: 60%;
+	margin: auto;
+	text-align: justify;
+	background: #bababa;
+	padding: 50px;
+	margin-bottom: 30px;
+}
+
+#back a
+{
+	text-decoration: none;
+	background: #bababa;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 50px/20px 5px 5px 50px;
+	font-family: "arial black", arial, sans-serif;
+	color: #0300bc;
+}
+
+#description p
+{
+	color: black;
+}
+
+.titrecontact
+{
+	margin-bottom: 100px;
+}
+
+#pourquoi:focus, #email:focus
+{
+    background: #c9c9c9;
+}
+
+fieldset
+{
+	background: white;
+}
+
+.bravo
+{
+	font-family: impact, 'Arial Black', Arial, sans-serif;
+	color: #5fd35f;
+	font-size: 5em;
+	text-align: center;
+	margin-top: 200px;
+}
+
+.bravo2
+{
+	font-family: 'Arial Black', Arial, sans-serif;
+	text-align: center;
+}
+
+.bravo2 a
+{
+	font-size: 1.5em;
+	text-decoration: none;
+	background: #3c3f63;
+	padding: 3px 15px 3px 15px;
+	color: white;
+	border-radius: 10px;
+}
+
+.bravo2 a:hover
+{
+	color: black;
+	box-shadow: 0 0 10px black;
+}
+
+@keyframes enter_anim{
+	0%{
+		transform: translateY(-5vh);
+		opacity: 0;
+	}
+	100%{
+		transform: translateY(0px);
+		opacity: 1;
+	}
+}
+
+#mma{
+	animation-name: enter_anim;
+	animation-duration: 2000ms;
+	animation-delay: 0ms;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: 1;
+}
+
+@keyframes enter2_anim{
+	0%{
+		transform: translateX(5vh);
+		opacity: 0;
+	}
+	100%{
+		transform: translateX(0px);
+		opacity: 1;
+	}
+}
+
+#sous{
+	animation-name: enter2_anim;
+	animation-duration: 2000ms;
+	animation-delay: 0ms;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: 1;
+}
+
+@keyframes enter3_anim{
+	0%{
+		transform: translateX(-5vh);
+		opacity: 0;
+	}
+	100%{
+		transform: translateX(0px);
+		opacity: 1;
+	}
+}
+
+.logo{
+	animation-name: enter3_anim;
+	animation-duration: 2000ms;
+	animation-delay: 0ms;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: 1;
+}
+
+@keyframes enter4_anim{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+.bannière{
+	animation-name: enter4_anim;
+	animation-duration: 2000ms;
+	animation-delay: 0ms;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: 1;
+}
